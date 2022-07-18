@@ -1,6 +1,6 @@
 import styled from "styled-components";
 export const  ButtonsDivStyled = styled.div`
-    background-color: pink;
+    background-color: none;
     display: flex;
     align-items: center;
     margin-right: 20px;
