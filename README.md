@@ -1,10 +1,11 @@
 # App
-Simple todolist app with made with create-react-app.
-Completed/uncompleted functions.
-Store data function.
-
-
+App
+Simple todolist app with made with create-react-app./
+Completed/uncompleted functions./
+Store data function./
 # technologies/ tools
-Create-React-App
-local-Storage
-styled-components
+Create-React-App/
+local-Storage/
+styled-components/
+
+
