@@ -10,6 +10,10 @@ const GlobalStyles = createGlobalStyle`
         font-size: 1.15em;
         margin: 0;
     }
+    #root {
+        display: flex;
+        flex-direction: column;
+    }
 
 `
 

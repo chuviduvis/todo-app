@@ -11,7 +11,12 @@ font-size: 1em;
 box-shadow: 10px 10px 8px black;
 display: flex;
 align-items: center;
-
-
 color: black;
+@media(max-width: ${({ theme })=> theme.mobile}){
+    flex-direction: column;
+    align-items: center
+    justify-content: center;
+    
+}
+
 `

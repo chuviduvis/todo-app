@@ -13,7 +13,9 @@ cursor: pointer;
     opacity: 0.9;
     transform: scale(0.90);
 }
-
+@media(max-width: ${({ theme })=> theme.mobile}){
+    margin: 0;
+}
 
 
 
