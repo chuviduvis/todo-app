@@ -54,7 +54,7 @@ function App() {
 
   const handleDelete = (todo)=>{
 
-    const newTodoList = todoList.filter((todoitem)=>todoList.indexOf(todoitem) != todoList.indexOf(todo))//Filter the no eliminated task objects
+    const newTodoList = todoList.filter((todoitem)=>todoList.indexOf(todoitem) !== todoList.indexOf(todo))//Filter the no eliminated task objects
       
     localStorage.setItem("newTodoList", JSON.stringify(newTodoList))//The filtered task objects are stored in localStorage
     const newTodoList2 = JSON.parse(localStorage.getItem("newTodoList"))//pull newTodoList from local Storage

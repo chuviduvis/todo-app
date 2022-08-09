@@ -1,6 +1,6 @@
 # App
-App Simple todolist app with made with create-react-app.\
-Completeduncompleted functions.\
+Simple todolist app made with create-react-app.\
+Completed/ uncompleted task functions.\
 Store data function.
 
 # technologies/ tools
